@@ -1,4 +1,3 @@
- $('.shopping-item-delete').on('click', '.delete-button', event => {
-   console.log('item deleted');
- });
+$('.shopping-item-delete').on('click', '.button-label', function(event) {
+ 	$(this).closest('shopping-item').remove()}; 
 
